@@ -20,7 +20,7 @@ const features: Feature[] = [
       "Engineered for optimal enterprise usability.",
   },
   {
-    icon: <Bitcooin className="w-8 h-8" />,
+    icon: <Bitcoin className="w-8 h-8" />,
     title: "Onyx Chain-AI",
     description:
       "Onyx AI agents leverage high throughput hybrid web 3.0 tech to perform real time supply chain optimizations.",
