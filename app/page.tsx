@@ -13,12 +13,12 @@ export default async function IndexPage() {
                 return redirect("/dashboard");
         }
   return (
-            <section className="container mx-auto flex flex-1 flex-col items-center gap-6 pb-32 pt-20 sm:pt-40 sm:pb-24">
-      <div className="flex max-w-7xl flex-col px-4 md:px-6 lg:px-8 text-center gap-2">
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tighter md:text-4xl mb-8">
+            <section className="container mx-auto flex flex-col space-y-16 items-center gap-6 pb-32 pt-20 sm:pt-40 sm:pb-24">
+      <div className="flex max-w-7xl px-4 md:px-6 lg:px-8 text-center gap-2">
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           Onyx SaaS PWA Template
         </h1>
-        <p className="max-w-2xl text-lg text-center text-muted-foreground mb-10 sm:text-xl">
+        <p className="max-w-2xl text-lg text-center text-muted-foreground sm:text-xl">
          Secure, scalable, user authentication + RBAC, validated CRUD ops, Rust API runtime, TanStack, and more. 
         </p>
       </div>
