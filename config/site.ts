@@ -34,6 +34,10 @@ export const siteConfig = {
       title: "RBAC",
       href: "/dashboard/members",
     },
+    { 
+      title: "About",
+      href: "/about",
+    },
     {
       title: "Contact",
       href: "/contact",
@@ -44,5 +48,7 @@ export const siteConfig = {
     github: "https://github.com/rmourey26/onyx",
     login: "https://onyx-rho-pink.vercel.app/auth",
     signup: "https://onyx-rho-pink.vercel.app/onboarding",
+    linkedin:
+"https://linkedin.com/in/robertmoureyjr",
   },
 }
