@@ -44,8 +44,8 @@ export default async function IndexPage() {
           Sign Up
         </Link>
       </div>
-      <WhyOnyxWrapper/>
       <AnimatedInfographic />
+      <WhyOnyxWrapper/>
    <Features/>
    <CTA/>
 
