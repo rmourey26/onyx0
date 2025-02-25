@@ -5,6 +5,9 @@ import { buttonVariants } from "@/components/ui/button"
 import { readUserSession } from "@/utils/actions";
 import Features from "@/components/features"
 import { redirect } from "next/navigation";
+import AnimatedInfographic from "@/components/animated-infographic";
+import CTA from "@/components/cta";
+import WhyOnyxWrapper from "@/components/whyonyxwrapper";
 
 export default async function IndexPage() {
   const { data: userSession } = await readUserSession();
@@ -14,7 +17,7 @@ export default async function IndexPage() {
         }
   return (
             <section className="container mx-auto flex flex-1 flex-col items-center gap-6 pb-32 pt-20 sm:pt-40 sm:pb-24">
-      <div className="flex max-w-7xl flex-col px-4 md:px-6 lg:px-8 text-center gap-2">
+      <div className="flex max-w-7xl flex-col px-4 md:px-6 lg:px-8 items-center text-center gap-2">
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tighter md:text-4xl mb-8">
           Onyx SaaS PWA Template
         </h1>
@@ -23,7 +26,7 @@ export default async function IndexPage() {
         </p>
       </div>
 
-      <div className="flex gap-6">
+      <div className="flex gap-6 mb-10">
         <Link
           href={siteConfig.links.login}
           target="_blank"
@@ -41,7 +44,11 @@ export default async function IndexPage() {
           Sign Up
         </Link>
       </div>
+      <WhyOnyxWrapper/>
+      <AnimatedInfographic />
    <Features/>
+   <CTA/>
+
     </section>
   )
 }
