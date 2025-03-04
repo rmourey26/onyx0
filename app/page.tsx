@@ -17,19 +17,19 @@ export default async function IndexPage() {
         }
   return (
 
-<section class="relative h-screen overflow-hidden">
+<section className="relative h-screen overflow-hidden">
   <video
     autoplay
     muted
     loop
-    class="absolute top-0 left-0 w-full h-full object-cover"
+    className="absolute top-0 left-0 w-full h-full object-cover"
   >
     <source src="https://quantumone.b-cdn.net/onyx/onyxsui.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-  <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50"></div>
-  <div class="relative z-10 flex items-center justify-center h-full">
-    <div class="text-center text-white px-4">
+  <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50"></div>
+  <div className="relative z-10 flex items-center justify-center h-full">
+    <div className="text-center text-white px-4">
      <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tighter md:text-4xl mb-8">
           Onyx SaaS PWA Template
         </h1>
