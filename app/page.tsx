@@ -22,8 +22,7 @@ export default async function IndexPage() {
     autoplay
     muted
     loop
-    className="absolute top-0 left-0 w-full h-full object-cover"
-  >
+    className="absolute top-0 left-0 w-full h-full object-cover">
     <source src="https://quantumone.b-cdn.net/onyx/onyxsui.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
@@ -49,7 +48,8 @@ export default async function IndexPage() {
     </div>
   </div>
 </section>
-            <section className="container mx-auto flex flex-1 flex-col items-center gap-6 pb-32 pt-20 sm:pt-40 sm:pb-24">
+
+<section className="container mx-auto flex flex-1 flex-col items-center gap-6 pb-32 pt-20 sm:pt-40 sm:pb-24">
       
 <div className="flex max-w-7xl flex-col px-4 md:px-6 lg:px-8 items-center text-center gap-2">
         
@@ -78,6 +78,7 @@ export default async function IndexPage() {
       <WhyOnyxWrapper/>
    <Features/>
    <CTA/>
+</div>
 
     </section>
   )
