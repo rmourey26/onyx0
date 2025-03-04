@@ -16,15 +16,45 @@ export default async function IndexPage() {
                 return redirect("/dashboard");
         }
   return (
-            <section className="container mx-auto flex flex-1 flex-col items-center gap-6 pb-32 pt-20 sm:pt-40 sm:pb-24">
-      <div className="flex max-w-7xl flex-col px-4 md:px-6 lg:px-8 items-center text-center gap-2">
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tighter md:text-4xl mb-8">
+
+<section class="relative h-screen overflow-hidden">
+  <video
+    autoplay
+    muted
+    loop
+    class="absolute top-0 left-0 w-full h-full object-cover"
+  >
+    <source src="https://quantumone.b-cdn.net/onyx/onyxsui.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50"></div>
+  <div class="relative z-10 flex items-center justify-center h-full">
+    <div class="text-center text-white px-4">
+     <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tighter md:text-4xl mb-8">
           Onyx SaaS PWA Template
         </h1>
-        <p className="max-w-2xl text-lg text-center text-muted-foreground mb-10 sm:text-xl">
+<p className="max-w-2xl text-lg text-center text-muted-foreground mb-10 sm:text-xl">
          Secure, scalable, user authentication + RBAC, validated CRUD ops, Rust API runtime, TanStack, and more. 
         </p>
-      </div>
+   
+      <Link
+        href={siteConfig.links.contact}
+        target="_blank"
+        rel="noreferrer"
+        className={buttonVariants()}
+        >
+     
+        Get Started
+      </Link>
+    </div>
+  </div>
+</section>
+            <section className="container mx-auto flex flex-1 flex-col items-center gap-6 pb-32 pt-20 sm:pt-40 sm:pb-24">
+      
+<div className="flex max-w-7xl flex-col px-4 md:px-6 lg:px-8 items-center text-center gap-2">
+        
+        
+ 
 
       <div className="flex gap-6 mb-10">
         <Link
