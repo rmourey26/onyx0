@@ -17,11 +17,9 @@ export default async function IndexPage() {
         }
   return (
 
-<section className="relative h-screen overflow-hidden">
-  <video
-    autoplay
-    muted
-    loop
+<section className="relative h-screen max-w-dvw w-full overflow-hidden">
+<div className="container max-w-dvw w-full h-screen">
+  <video autoplay muted loop
     className="absolute top-0 left-0 w-full h-full object-cover">
     <source src="https://quantumone.b-cdn.net/onyx/onyxsui.mp4" type="video/mp4" />
     Your browser does not support the video tag.
@@ -47,6 +45,7 @@ export default async function IndexPage() {
       </Link>
     </div>
   </div>
+</div>
 
       
 <div className="flex max-w-7xl flex-col px-4 md:px-6 lg:px-8 items-center text-center gap-2">
