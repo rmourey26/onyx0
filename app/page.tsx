@@ -19,11 +19,10 @@ export default async function IndexPage() {
 
 <section className="relative h-screen max-w-dvw w-full overflow-hidden">
 <div className="container max-w-dvw w-full h-screen">
-  <video autoplay muted loop
-    className="absolute top-0 left-0 w-full h-full object-cover">
-    <source src="https://quantumone.b-cdn.net/onyx/onyxsui.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+  <iframe
+    className="absolute top-0 left-0 w-full h-full object-cover overflow-hidden src="https://quantumone.b-cdn.net/onyx/onyxsui.mp4"">
+</iframe>
+    
   <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50"></div>
   <div className="relative z-10 flex items-center justify-center h-full">
     <div className="text-center text-white px-4">
