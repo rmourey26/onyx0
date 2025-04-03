@@ -20,7 +20,7 @@ export default async function IndexPage() {
 <section className="relative h-screen max-w-dvw w-full overflow-hidden">
 <div className="container max-w-dvw w-full h-screen">
   <iframe
-    className="absolute top-0 left-0 w-full h-full object-cover overflow-hidden" src="https://quantumone.b-cdn.net/onyx/onyxsui.mp4"">
+    className="absolute top-0 left-0 w-full h-full object-cover overflow-hidden" src="https://quantumone.b-cdn.net/onyx/onyxsui.mp4">
 </iframe>
     
   <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50"></div>
