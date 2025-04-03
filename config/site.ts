@@ -45,10 +45,12 @@ export const siteConfig = {
   ],
   links: {
     twitter: "https://twitter.com/r_mourey_jr",
-    github: "https://github.com/rmourey26/onyx",
-    login: "https://onyx-rho-pink.vercel.app/auth",
-    signup: "https://onyx-rho-pink.vercel.app/onboarding",
+    github: "https://github.com/rmourey26/onyx0",
+    login: "https://onyx0.vercel.app/auth",
+    signup: "https://onyx0.vercel.app/onboarding",
     linkedin:
 "https://linkedin.com/in/robertmoureyjr",
+    contact: 
+"https://onyx0.vercel.app/contact",
   },
 }
